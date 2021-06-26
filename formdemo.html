@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple form</title>
+	<meta  name="viewport" content="width= device-width, initial-scale=1">
+
+	<style >
+		html, body
+		{
+			height: 100%;
+			margin: 0;
+			font-family: Arial;
+		}
+
+*{
+	margin:auto;
+	padding:auto;
+}
+.top{
+	width:100%;
+	background-color:black !important;
+	border-bottom:2px solid #f0f0f0;
+}
+.top div{
+	width:1200px;
+	color:#fff;
+	background-color:black !important;
+	font-family:calibri;
+	padding:10px;
+	text-align:right;
+}
+		
+		
+		
+		.bg-image
+		{
+			background-image: url("img/green.jpg");
+	
+			filter: blur(1px);
+			height: 100%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.bloody
+		{
+			border: 4px solid brown;
+			/*text-align: center;*/
+			
+			/*margin-left: 40%;*/
+			margin: 0% 0%;
+			padding: 10px;
+			position: absolute;
+			/*background-image: url("sunset.jpg");
+			background-size: cover;*/
+			background-color: rgb(0,0,0);
+			background-color: rgba(0,0,0,0.4);
+			top: 7%;
+			left: 30%;
+			right: 20%;
+		}
+
+		input
+		{
+			width: 80%;
+			border-radius: 10px;
+			border: 2px solid black;
+			padding: 10px;
+			margin: 8px;
+
+		}
+		#submit
+		{
+			width: 80%;
+			border-radius: 10px;
+			border: 2px solid black;
+			padding: 10px;
+			margin: 8px;
+			background-color: #4CAF50;
+			cursor: pointer;
+
+		}
+  		h1, h2, h3
+		{
+			text-decoration: underline;
+			text-align: center;
+			color: red;
+		}
+
+		label
+		{
+			color: white;
+			font-size: 20px;
+			
+		}
+		* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 350px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+		
+	
+	</style>
+</head>
+	<body>
+	<div class="top">
+		<div>
+		 Contact Us +91 96366 20000 / 01 | mhadmin@army.com
+		</div>
+	</div>
+	
+	<div class="logo">
+			<table>
+				<tr>
+					<td width="1200px" style="font-size:50px;font-family:forte;"> <a href=""><font color="#428bca"> MH  </font><font color="#000"> Hospital</font> </a></td>
+				</tr>
+			</table>
+	</div>
+		
+	
+	<div class="bg-image">
+	
+	
+		<div class="bloody">
+			<form action="/action_page.php" method="post" target="_blank">
+				<h1>FEEDBACK</h1>
+				<label for="name">Name :</label><br>
+				<input type="text" name="name" ><br>
+				<label for="age">Age :</label><br>
+				<input type="text" name="age"><br>
+				<label for="address">Address :</label><br>
+			<input type="type=text" name="address" placeholder="your address"><br>
+				<label for="id">Email Id :</label><br>
+				<input type="type=text" name="em" ><br>
+				<label for="s">Suggestion :</label><br>
+				<input type="type=text-area" name="s"><br>
+				<input id="submit" type="submit" value="Submit">
+			</form>
+		</div>
+</div>
+	<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Abbreviations</h2>
+							<p style="font-size: 10px;">Within the military, medical officers could occupy a number of roles <br>
+								 that were dependent on experience, rank and location. Within military<br>
+								 documentation numerous abbreviations were used to identify these roles,<br>
+								 of which the following are some of the most common:<br>
+
+								ADMS = assistant director medical services<br>
+								DADMS = deputy assistant director of medical services<br>
+								DDGMS = deputy director general medical services<br>
+								DDMS = deputy director medical services<br>
+								DG = director general (medical services)<br>
+								DGAFMS = director general armed forces medical services<br>
+								DGMS = director general medical services<br>
+								DMO = duty medical officer<br>
+								DMS = director medical services<br>
+								EMO = embarkation medical officer<br>
+								GDMO = general duties medical officer (a junior/senior army doctor do not possess a post graduation)<br>
+								MCD = military clinical director (a senior army consultant)<br>
+								MO = medical officer<br>
+								OMO = orderly medical officer<br>
+								PMO = principal medical officer, the seniormost doctor at the division level. Usually a specialist with the rank of brigadier.<br>
+								RMO = regimental medical officer (normally an army general practitioner with additional training in pre-hospital emergency care and occupational medicine).<br>
+								SMO = senior medical officer (normally a senior army general practitioner) at the brigade level, usually a full colonel.</p>					
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Soliders at border :</h2><br>
+	<a href="#"><img src="img/h.jfif" title="client-name" height="200px" width="450px"></a>
+  </div>
+  <div class="column" style="background-color:#ccc;">
+<h2>CONTACT US :</h2><br>
+							<ul class="plain">
+								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i><img src="img/twitter.png" height="50px" width="50px"> Twitter</a></li><br><hr><br>
+								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i><img src="img/fb.png" height="50px" width="50px"> Facebook</a></li><br><hr><br>
+								<li><a href="#"><i class="icon fa-instagram">&nbsp;</i><img src="img/insta.png" height="50px" width="50px"> Instagram</a></li><br><hr><br>
+							</ul>
+  </div>
+</div>
+<div class="top">
+		<div>
+<p align="center" >&copy; WEB-D PROJECT, developers Vishakha & Riya</p>
+		</div>
+	</div>
+
+	</body>
+</html>

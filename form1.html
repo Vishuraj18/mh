@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> forms </title>
+<link rel="stylesheet" type="text/css" href="css/c.css">
+</head>
+
+<form method="get">
+
+<fieldset>                                                                                             
+ <legend style="text-align:center; font-size: 50px;">
+<div style="background-color: black;">
+ <p style="color: white;">
+<b><i><u> REGISTRATION FORM  </u></i></b>
+</p>
+</div></legend>
+
+<fieldset>
+  <legend>
+<div style="background-color: blue;">
+ <p style="color: white">
+  PERSONAL DETAILS: 
+</p>
+</div></legend>
+
+<table cellspacing="15px"> 
+<tr>                                   
+<td><label for="cname">CANDIDATE'S NAME: </label></td>                                                
+<td> <input type="text" placeholder="uname" id="cname" name="cname" maxlength="15" required> </td>
+
+<td><label for="fname">FATHER'S NAME: </label></td>
+<td> <input type="text" placeholder="fname" id="fname" name="fname" maxlength="15" required> </td>
+</tr>
+
+<tr>
+<td><label for="mname">MOTHERS'S NAME: </label></td>
+<td> <input type="text" placeholder="mname" id="mname" name="mname" maxlength="15" required> </td>
+
+<td>Candidate's date of birth:</td>
+<td> <input type="date" id="birthday" name="dob" required> </td>                                       
+</tr>
+
+
+<tr>
+<td> IDENTITY TYPE: </td>
+<td> <select required>
+<option> -----SELECT----- </option>                                                                      
+<option> PAN Card </option>
+<option> Passport </option>
+<option> Qualifying Examination Admit Card with Photograh </option>
+<option> Voter ID </option>
+<option> Ration Card </option>
+<option> Bank Passbook with Photograph </option>
+<option> Driving Licene </option>
+<option> Other govt. identity proof </option></select></td>
+
+<td> GENDER: </td>
+<td> <input type="radio" name="gender"> Male
+     <input type="radio" name="gender"> Female
+	 <input type="radio" name="gender"> Others </td>
+</tr>
+
+<tr>
+<td> Aadhar No: </td>
+<td> <input type="text"> </td>
+
+<td> SELECT CAST: </td>
+<td> <select required>
+<option> -----SELECT----- </option>
+<option> GEN </option>
+<option> GEN-EWS </option>
+<option> OBC </option>
+<option> OBC-EWS </option>
+<option> SC </option>
+<option> ST</option>
+<option> PWD </option></select></td>
+</tr>
+</table>
+</fieldset>
+
+<fieldset><legend>
+<div style="background-color: blue;">
+ <p style="color: white">
+   CONTACT DETAILS:
+</p>
+</div></legend>
+<table  cellspacing="15px">
+<tr>
+<td> Address: </td>
+<td> <input type="text"> </td>
+</tr>
+
+<tr>
+<td> City/Town/Village: </td>
+<td> <input type="text"> </td>
+</tr>
+
+<tr>
+<td> STATE: </td>
+<td> <select>
+<option> -----SELECT----- </option>
+<option> Andhra Pradesh </option>
+<option> Arunachal Pradesh </option>
+<option> Assam </option>
+<option> Bihar </option>
+<option> Chhattisgarh </option>
+<option> Goa </option>
+<option> Gujrat </option>
+<option> Haryana </option>
+<option> Himachal Pradesh </option>
+<option> Jammu and Kashmir </option>
+<option> Jharkhand </option>
+<option> Karnataka </option>
+<option> Kerala </option>
+<option> Madhya Pradesh </option>
+<option> Maharashtra </option>
+<option> Manipur </option>
+<option> Meghalaya  </option>
+<option> Mizoram  </option>
+<option> Nagaland </option>
+<option> Odisha </option>
+<option> Punjab </option>
+<option> Rajasthan </option>
+<option> Sikkim  </option>
+<option> Tamil Nadu </option>
+<option> Telangana </option>
+<option> Tripura </option>
+<option> Uttar Pradesh </option>
+<option> Uttarakhand </option>
+<option> West Bengal </option></select></td>
+</tr>
+
+<tr>
+<td> Pin Code: </td>
+<td> <input type="text"> </td>
+</tr>
+
+<tr>
+<td> EMAIL: </td>
+<td> <input type="text" name="em"></td>
+
+<td> PHONE NO: </td>
+<td> <select>
+<option> +90 </option>
+<option> +91 </option>
+<option> +92 </option>
+<option> +93 </option>
+<option> +94 </option></select></td>
+<td> <input type="text" id="phone" name="pn" maxlength="10" required> </td>
+</tr>
+</table>
+</fieldset>
+
+<fieldset><legend>
+<div style="background-color: blue;">
+ <p style="color: white">
+   CHOOSE PASSWORD:
+</p>
+</div></legend>
+<table>
+<tr>
+<td>PASSWORD: </td>
+<td> <input type="password" > </td>
+</tr>
+
+<tr>
+<td>RE-TYPE PASSWORD: </td>
+<td> <input type="password" > </td>
+</tr>
+
+<tr>
+<td> PASSWORD OPTION: </td>
+<td> <select>
+<option> -----SELECT----- </option>
+<option> WHAT IS YOUR NAME? </option>
+<option> WHERE DO YOU LIVE? </option>
+<option> WHAT IS YOUR PET NAME? </option>
+<option> FIRST SCHOOL NAME? </option></select></td>
+<td> ANSWER </td>
+<td><input type="text" id="ans" name="ans" maxlength="10" required></td>
+</tr>
+
+<tr>
+<td> ENTER A MESSAGE: </td>
+<td> <textarea name="message" rows="5" cols="10"> </textarea> </td>
+</tr>
+</table>
+</fieldset>
+
+<fieldset>
+  <legend>
+<div style="background-color: blue;">
+ <p style="color: white">
+  EDUCATION QUALIFICATION: 
+</p>
+</div></legend>
+
+<table cellspacing="15px"> 
+<tr>
+<td><label for="cname">10th GRADES: </label></td>
+<td> <input type="text" id="g1" name="g1" required> </td>
+
+<td>SELECT BOARD: </td>
+<td> <select required>
+<option> -----SELECT----- </option>
+<option> CBSE </option>
+<option> ICSE </option>
+<option> State Board </option>
+<option> Other </option></select></td>
+</tr>
+
+<tr>
+<td><label for="cname">12th GRADES: </label></td>
+<td> <input type="text" id="g2" name="g2" required> </td>
+
+<td>SELECT BOARD: </td>
+<td> <select required>
+<option> -----SELECT----- </option>
+<option> CBSE </option>
+<option> ICSE </option>
+<option> State Board </option>
+<option> Other </option></select></td>
+</tr>
+</table>
+</fieldset>
+
+<fieldset>
+  <legend>
+<div style="background-color: blue;">
+ <p style="color: white">
+  UPLOADS:
+</p>
+</div></legend>
+
+<table cellspacing="15px"> 
+<tr>
+<td> Upload the image:</td>
+<td><label for="img"> Select image: </label>
+<input type="file" id="img" name="img" accept="image/*">
+</tr>
+
+<tr>
+<td> Upload the signatures: </td>
+<td><label for="sig"> Select image: </label>
+<input type="file" id="sig" name="sig" accept="sig/*">
+</tr>
+
+<tr>
+<td> Upload 10th certificate: </td>
+<td><label for="img"> Select image: </label>
+<input type="file" id="10" name="10" accept="image/*">
+</tr>
+
+<tr>
+<td> Upload 12th certificate: </td>
+<td><label for="img"> Select image: </label>
+<input type="file" id="12" name="12" accept="image/*">
+</tr>
+
+<tr>
+<td> Upload caste certificate: </td>
+<td><label for="img"> Select image: </label>
+<input type="file" id="caste" name="caste" accept="image/*">
+</tr>
+</table>
+</fieldset>
+
+<fieldset>
+<legend>
+<div style="background-color: blue;">
+ <p style="color: white">
+ SUBMITTION:
+</p>
+</div></legend>
+<table cellspacing="20" align="center">
+
+<tr>
+    	<td  id="button1"><input type="SUBMIT" value="NEXT" name="b1"> </td>
+    	<td  id="button2"><input type="SUBMIT" value="CANCEL" name="b2"> </td>
+    </tr>
+</table>
+</fieldset>
+</fieldset>
+</form>
+</html>
