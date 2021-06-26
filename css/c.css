@@ -1,0 +1,28 @@
+.button
+{
+	border: 2px solid;
+	color: red;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 12px;
+	cursor: pointer;
+}
+#button1
+{
+	background-color: black;
+	color: white;
+	border: 5px solid crimson;                         /*for button designing*/
+}
+#button2
+{
+	background-color: black;
+	color: white;
+	border: 5px solid crimson;                         /*for button designing*/
+}
+body
+{
+    background-image:url(../img/lgreen.jpg);                        /*applying background image*/
+	background-repeat: no-repeat; 
+	background-size:cover;
+}

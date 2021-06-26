@@ -1,0 +1,26 @@
+body
+	{
+		background-color: black;
+	}
+p
+	{
+		text-align: justify;
+		font-family: times new roman;
+	}
+h1
+	{
+		font-family: Constantia; 
+		font-size: 100px;
+		color: red;
+		text-shadow: 5px 5px 10px;
+		text-align: center;
+	}
+#one-box
+{
+	float:left;
+	width: 180px;
+	height: 110px;
+	background-color: white;
+	border: solid red ;
+	margin-left: 20px;
+}
